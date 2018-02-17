@@ -1,12 +1,12 @@
 # Installation :
 
-	a - Apache ( apache2 )
+- Apache ( apache2 )
 
-	b - PHP ( php ) + dans le doute "libapache2-mod-php" 
+- PHP ( php ) + dans le doute "libapache2-mod-php" 
 	
-	c - postgres ( postgres ) + le driver php vers postgres ( php-pgsql )
+- postgres ( postgres ) + le driver php vers postgres ( php-pgsql )
 	
-2) Configuration :
+# Configuration :
 
 	a - Apache : localhost:80
 	
