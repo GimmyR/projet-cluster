@@ -82,17 +82,9 @@
 
         <!--========== Resultats ==========-->
         <section id="results" class="section">
-            <div class="container">
-                <div class="row margin-b-40">
-                    <div class="col-sm-12">
-                        <h1 class="section-title">R&eacute;sultat(s) pour '<?php echo $searchText; ?>'</h1>
-                        <hr />
-                    </div>
-                </div>
-            </div>
             <div class="section-list">
 			
-				<?php for($i = (5 * ($page-1)); $i < (5 * $page) && $i < count($recherches); $i++){ ?>
+				<?php for($i = 0; $i < count($recherches); $i++){ ?>
 				<div class="section margin-b-40">
                     <div class="container">
                         <div class="row">
@@ -132,26 +124,12 @@
 
 				<?php
 					}
-					$nbPage = (int)(count($recherches) / 5);
 				?>
             </div> 
 			
 			
         </section>
         <!--========== Resultats ==========-->
-		
-		<!--========== PAGINATION ==========-->
-		<div class="container margin-b-40 pagination text-right">
-			<div class="row">	
-				<span>Page </span>
-				<?php for($i = 0; $i < $nbPage; $i++){ ?>
-				
-					<a href="search.php?page=<?php echo ($i+1); ?>&searchCateg=<?php echo $searchCateg; ?>&searchText=<?php echo $searchText; ?>"><?php echo ($i+1); ?></a>
-				
-				<?php } ?>
-			</div>
-		</div>
-		<!--========== PAGINATION ==========-->
 		
 
         <?php include('../../inc/footer.php'); ?>
