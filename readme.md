@@ -12,13 +12,13 @@
 	
 - PHP : display_error = on
 	
-- ## postgres : 
+- postgres : 
 	
-		c . 1 - Entrer dans la base : sudo -i -u postgres psql ( + password du super-utilisateur ubuntu )
+	- Entrer dans la base : sudo -i -u postgres psql ( + password du super-utilisateur ubuntu )
 		
-		c . 2 - Changer le mot de passe de base de l'utilisateur "postgres" par "itu" : ALTER USER postgres WITH PASSWORD 'itu';
+	- Changer le mot de passe de base de l'utilisateur "postgres" par "itu" : ALTER USER postgres WITH PASSWORD 'itu';
 		
-		c . 3 - Quitter : \q
+	- Quitter : \q
 		
 3) Test :
 
