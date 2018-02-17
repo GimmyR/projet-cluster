@@ -40,8 +40,8 @@
 		
 	- Verifier si tout est bien importer :
 		
-		. lister les tables : \dt
-		. lister le contenu des tables : SELECT * FROM <table_name> 
+		- lister les tables : \dt
+		- lister le contenu des tables : SELECT * FROM <table_name> 
 			
 - Apache :
 	
