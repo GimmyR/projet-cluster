@@ -14,6 +14,8 @@
 			
 			$this->result = $this->bdd->query($request);
 			$this->result->setFetchMode(PDO::FETCH_OBJ);
+
+			$tab = array ();
 			
 			while($res = $this->result->fetch()){
 				$tab[] = $res;
