@@ -12,7 +12,7 @@
 	
 - PHP : display_error = on
 	
-## - postgres : 
+- ## postgres : 
 	
 		c . 1 - Entrer dans la base : sudo -i -u postgres psql ( + password du super-utilisateur ubuntu )
 		
