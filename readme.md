@@ -1,4 +1,4 @@
-1) Installation :
+# Installation :
 
 	a - Apache ( apache2 )
 
