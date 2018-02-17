@@ -8,11 +8,11 @@
 	
 # Configuration :
 
-	a - Apache : localhost:80
+- Apache : localhost:80
 	
-	b - PHP : display_error = on
+- PHP : display_error = on
 	
-	c - postgres : 
+## - postgres : 
 	
 		c . 1 - Entrer dans la base : sudo -i -u postgres psql ( + password du super-utilisateur ubuntu )
 		
