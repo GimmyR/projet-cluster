@@ -5,7 +5,7 @@
 		return array(
 			'sgbd' => 'pgsql',
 			'port' => 5432,
-			'db' => 'GameBuy',
+			'db' => 'gamebuy',
 			'user' => 'postgres',
 			'mdp' => 'itu'
 		);
