@@ -22,6 +22,10 @@
 		
 # Test :
 
+- Apache :
+
+	- Deployez ce projet ( projet-cluster ) dans le repertoire "/var/www/html/" : sudo git clone https://github.com/GimmyR/projet-cluster.git
+
 - Postgres : N.B : le nom des objets SQL sur ligne de commande doit etre en minuscule lors des RUD ( Read-Update-Delete ) de ceci
 	
 	- Entrer : sudo -i -u postgres
@@ -32,7 +36,7 @@
 		
 	- Quitter : \q
 		
-	- Importer le dump SQL du dossier "JeuAchat/database-dump/" vers notre base de donnees : cat "path/to/JeuAchat/database-dump/dump.sql" | psql -d gamebuy
+	- Importer le dump SQL du dossier "database-dump/" : cat "path/to/database-dump/dump.sql" | psql -d gamebuy
 		
 	- Quitter : exit
 		
@@ -42,9 +46,5 @@
 		
 		- lister les tables : \dt
 		- lister le contenu des tables : SELECT * FROM <table_name> 
-			
-- Apache :
-	
-	- Copier le dossier "JeuAchat/" vers "/var/www/html/" : sudo cp -R path/to/JeuAchat /var/www/html/
 		
-	- Tester sur son navigateur si tout marche bien : http://localhost/JeuAchat/
+- Passez au test en lancant : http://localhost/projet-cluster/
